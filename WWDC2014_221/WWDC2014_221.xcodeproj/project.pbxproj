@@ -25,6 +25,7 @@
 		40635082195FF8A6003FEA09 /* WWDC2014_221Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40635081195FF8A6003FEA09 /* WWDC2014_221Tests.m */; };
 		4063508E195FFC87003FEA09 /* ZZSpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4063508D195FFC87003FEA09 /* ZZSpringViewController.m */; };
 		40D8BBD9196052D2003B7506 /* ZZTestAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D8BBD8196052D2003B7506 /* ZZTestAction.m */; };
+		40D8BBDC19605389003B7506 /* ZZTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D8BBDB19605389003B7506 /* ZZTestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		4063508D195FFC87003FEA09 /* ZZSpringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZSpringViewController.m; sourceTree = "<group>"; };
 		40D8BBD7196052D2003B7506 /* ZZTestAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTestAction.h; sourceTree = "<group>"; };
 		40D8BBD8196052D2003B7506 /* ZZTestAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTestAction.m; sourceTree = "<group>"; };
+		40D8BBDA19605389003B7506 /* ZZTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTestView.h; sourceTree = "<group>"; };
+		40D8BBDB19605389003B7506 /* ZZTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 				4063508D195FFC87003FEA09 /* ZZSpringViewController.m */,
 				40D8BBD7196052D2003B7506 /* ZZTestAction.h */,
 				40D8BBD8196052D2003B7506 /* ZZTestAction.m */,
+				40D8BBDA19605389003B7506 /* ZZTestView.h */,
+				40D8BBDB19605389003B7506 /* ZZTestView.m */,
 			);
 			name = viewController;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 				4063506A195FF8A6003FEA09 /* ZZMasterViewController.m in Sources */,
 				4063506D195FF8A6003FEA09 /* ZZDetailViewController.m in Sources */,
 				40635061195FF8A6003FEA09 /* ZZAppDelegate.m in Sources */,
+				40D8BBDC19605389003B7506 /* ZZTestView.m in Sources */,
 				40D8BBD9196052D2003B7506 /* ZZTestAction.m in Sources */,
 				4063505D195FF8A6003FEA09 /* main.m in Sources */,
 				4063508E195FFC87003FEA09 /* ZZSpringViewController.m in Sources */,
