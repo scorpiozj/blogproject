@@ -26,6 +26,7 @@
 		4063508E195FFC87003FEA09 /* ZZSpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4063508D195FFC87003FEA09 /* ZZSpringViewController.m */; };
 		40D8BBD9196052D2003B7506 /* ZZTestAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D8BBD8196052D2003B7506 /* ZZTestAction.m */; };
 		40D8BBDC19605389003B7506 /* ZZTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D8BBDB19605389003B7506 /* ZZTestView.m */; };
+		40D8BBDF196053F9003B7506 /* ZZAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D8BBDE196053F9003B7506 /* ZZAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		40D8BBD8196052D2003B7506 /* ZZTestAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTestAction.m; sourceTree = "<group>"; };
 		40D8BBDA19605389003B7506 /* ZZTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTestView.h; sourceTree = "<group>"; };
 		40D8BBDB19605389003B7506 /* ZZTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTestView.m; sourceTree = "<group>"; };
+		40D8BBDD196053F9003B7506 /* ZZAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZAnimationViewController.h; sourceTree = "<group>"; };
+		40D8BBDE196053F9003B7506 /* ZZAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZAnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +182,8 @@
 				40D8BBD8196052D2003B7506 /* ZZTestAction.m */,
 				40D8BBDA19605389003B7506 /* ZZTestView.h */,
 				40D8BBDB19605389003B7506 /* ZZTestView.m */,
+				40D8BBDD196053F9003B7506 /* ZZAnimationViewController.h */,
+				40D8BBDE196053F9003B7506 /* ZZAnimationViewController.m */,
 			);
 			name = viewController;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4063506A195FF8A6003FEA09 /* ZZMasterViewController.m in Sources */,
+				40D8BBDF196053F9003B7506 /* ZZAnimationViewController.m in Sources */,
 				4063506D195FF8A6003FEA09 /* ZZDetailViewController.m in Sources */,
 				40635061195FF8A6003FEA09 /* ZZAppDelegate.m in Sources */,
 				40D8BBDC19605389003B7506 /* ZZTestView.m in Sources */,
