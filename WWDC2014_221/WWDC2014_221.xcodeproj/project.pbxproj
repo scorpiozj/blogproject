@@ -23,6 +23,7 @@
 		40635078195FF8A6003FEA09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40635054195FF8A6003FEA09 /* UIKit.framework */; };
 		40635080195FF8A6003FEA09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4063507E195FF8A6003FEA09 /* InfoPlist.strings */; };
 		40635082195FF8A6003FEA09 /* WWDC2014_221Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40635081195FF8A6003FEA09 /* WWDC2014_221Tests.m */; };
+		4063508E195FFC87003FEA09 /* ZZSpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4063508D195FFC87003FEA09 /* ZZSpringViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		4063507D195FF8A6003FEA09 /* WWDC2014_221Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WWDC2014_221Tests-Info.plist"; sourceTree = "<group>"; };
 		4063507F195FF8A6003FEA09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40635081195FF8A6003FEA09 /* WWDC2014_221Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWDC2014_221Tests.m; sourceTree = "<group>"; };
+		4063508C195FFC87003FEA09 /* ZZSpringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZSpringViewController.h; sourceTree = "<group>"; };
+		4063508D195FFC87003FEA09 /* ZZSpringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZSpringViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 		40635056195FF8A6003FEA09 /* WWDC2014_221 */ = {
 			isa = PBXGroup;
 			children = (
+				4063508B195FFC72003FEA09 /* viewController */,
 				4063505F195FF8A6003FEA09 /* ZZAppDelegate.h */,
 				40635060195FF8A6003FEA09 /* ZZAppDelegate.m */,
 				40635062195FF8A6003FEA09 /* Main_iPhone.storyboard */,
@@ -158,6 +162,15 @@
 				4063507E195FF8A6003FEA09 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4063508B195FFC72003FEA09 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				4063508C195FFC87003FEA09 /* ZZSpringViewController.h */,
+				4063508D195FFC87003FEA09 /* ZZSpringViewController.m */,
+			);
+			name = viewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 				4063506D195FF8A6003FEA09 /* ZZDetailViewController.m in Sources */,
 				40635061195FF8A6003FEA09 /* ZZAppDelegate.m in Sources */,
 				4063505D195FF8A6003FEA09 /* main.m in Sources */,
+				4063508E195FFC87003FEA09 /* ZZSpringViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +414,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WWDC2014_221/WWDC2014_221-Prefix.pch";
 				INFOPLIST_FILE = "WWDC2014_221/WWDC2014_221-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -413,6 +428,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WWDC2014_221/WWDC2014_221-Prefix.pch";
 				INFOPLIST_FILE = "WWDC2014_221/WWDC2014_221-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
