@@ -24,6 +24,7 @@
 		40635080195FF8A6003FEA09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4063507E195FF8A6003FEA09 /* InfoPlist.strings */; };
 		40635082195FF8A6003FEA09 /* WWDC2014_221Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40635081195FF8A6003FEA09 /* WWDC2014_221Tests.m */; };
 		4063508E195FFC87003FEA09 /* ZZSpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4063508D195FFC87003FEA09 /* ZZSpringViewController.m */; };
+		40D8BBD9196052D2003B7506 /* ZZTestAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D8BBD8196052D2003B7506 /* ZZTestAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		40635081195FF8A6003FEA09 /* WWDC2014_221Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWDC2014_221Tests.m; sourceTree = "<group>"; };
 		4063508C195FFC87003FEA09 /* ZZSpringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZSpringViewController.h; sourceTree = "<group>"; };
 		4063508D195FFC87003FEA09 /* ZZSpringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZSpringViewController.m; sourceTree = "<group>"; };
+		40D8BBD7196052D2003B7506 /* ZZTestAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTestAction.h; sourceTree = "<group>"; };
+		40D8BBD8196052D2003B7506 /* ZZTestAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTestAction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +172,8 @@
 			children = (
 				4063508C195FFC87003FEA09 /* ZZSpringViewController.h */,
 				4063508D195FFC87003FEA09 /* ZZSpringViewController.m */,
+				40D8BBD7196052D2003B7506 /* ZZTestAction.h */,
+				40D8BBD8196052D2003B7506 /* ZZTestAction.m */,
 			);
 			name = viewController;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 				4063506A195FF8A6003FEA09 /* ZZMasterViewController.m in Sources */,
 				4063506D195FF8A6003FEA09 /* ZZDetailViewController.m in Sources */,
 				40635061195FF8A6003FEA09 /* ZZAppDelegate.m in Sources */,
+				40D8BBD9196052D2003B7506 /* ZZTestAction.m in Sources */,
 				4063505D195FF8A6003FEA09 /* main.m in Sources */,
 				4063508E195FFC87003FEA09 /* ZZSpringViewController.m in Sources */,
 			);
@@ -493,6 +499,7 @@
 				40635087195FF8A6003FEA09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40635088195FF8A6003FEA09 /* Build configuration list for PBXNativeTarget "WWDC2014_221Tests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +508,7 @@
 				4063508A195FF8A6003FEA09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
