@@ -7,9 +7,12 @@
 //
 
 #import "ZZShapeViewController.h"
+#import "ZZShapeView.h"
 
 @interface ZZShapeViewController ()
-
+{
+    ZZShapeView *_shapeView;
+}
 @end
 
 @implementation ZZShapeViewController
@@ -27,8 +30,22 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-}
+    _shapeView = [[ZZShapeView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:_shapeView];
+    [NSTimer scheduledTimerWithTimeInterval:.1 target:self selector:@selector(timeAction:) userInfo:nil repeats:YES];
 
+    self.view.backgroundColor = [UIColor whiteColor];
+}
+- (void)timeAction:(NSTimer *)timer
+{
+    static float progress = .0;
+    progress += 0.1;
+    if (progress > 1.5)
+    {
+        progress = .0;
+    }
+    [_shapeView setProgress:progress];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
