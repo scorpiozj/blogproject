@@ -11,6 +11,8 @@
 #import "ZZDetailViewController.h"
 #import "ZZSpringViewController.h"
 #import "ZZAnimationViewController.h"
+#import "ZZShapeViewController.h"
+#import "ZZVisualViewController.h"
 
 @interface ZZMasterViewController () {
     NSMutableArray *_objects;
@@ -37,8 +39,11 @@
 //    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
 //    self.navigationItem.rightBarButtonItem = addButton;
 //    self.detailViewController = (ZZDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
-    _objects = [NSMutableArray arrayWithObjects:@"Spring",@"Custom Core Animation", nil];
-    
+    _objects = [NSMutableArray arrayWithObjects:@"Spring",@"Custom Core Animation",@"CAShape progress", nil];
+    if (NSClassFromString(@"UIVisualEffectView"))
+    {
+        [_objects addObject:@"Visual effect"];
+    }
 //    UIVisualEffectView
 //    [self.view drawViewHierarchyInRect:<#(CGRect)#> afterScreenUpdates:<#(BOOL)#>]
 }
@@ -129,6 +134,18 @@
         {
             ZZAnimationViewController *animationVC = [[ZZAnimationViewController alloc] initWithNibName:nil bundle:nil];
             [self.navigationController pushViewController:animationVC animated:YES];
+            break;
+        }
+        case 2:
+        {
+            ZZShapeViewController *shapeVC = [[ZZShapeViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:shapeVC animated:YES];
+            break;
+        }
+        case 3:
+        {
+            ZZVisualViewController *visualVC = [[ZZVisualViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:visualVC animated:YES];
             break;
         }
         default:

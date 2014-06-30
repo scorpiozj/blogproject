@@ -27,8 +27,24 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UIView *redView = [[UIView alloc] initWithFrame:CGRectMake(50, 80, 50, 50)];
+    redView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:redView];
+    
+    UIDatePicker *datePicker = [[UIDatePicker alloc] initWithFrame:CGRectMake(0, 200, 320, 150)];
+    [self.view addSubview:datePicker];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    [self performSelector:@selector(_addVisualEffect) withObject:nil afterDelay:2];
 }
-
+- (void)_addVisualEffect
+{
+    UIBlurEffect *blur = [UIBlurEffect effectWithStyle:UIBlurEffectStyleDark];
+    UIVisualEffectView *vev = [[UIVisualEffectView alloc] initWithEffect:blur];
+    vev.frame = self.view.bounds;
+    [self.view addSubview:vev];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
