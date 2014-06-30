@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ZZTestAction : NSObject
+@interface ZZTestAction : NSObject<CAAction>
 
 @end

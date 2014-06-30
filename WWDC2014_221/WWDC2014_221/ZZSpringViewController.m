@@ -49,7 +49,7 @@
     if (nil == _blueView)
     {
         _blueView = [[UIView alloc] initWithFrame:CGRectMake(20, 100, 100, 100)];
-        _blueView.backgroundColor = [UIColor blackColor];
+        _blueView.backgroundColor = [UIColor blueColor];
         [self.view addSubview:_blueView];
     }
     

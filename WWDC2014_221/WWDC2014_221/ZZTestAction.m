@@ -9,5 +9,9 @@
 #import "ZZTestAction.h"
 
 @implementation ZZTestAction
-
+- (void)runActionForKey:(NSString *)event object:(id)anObject
+              arguments:(NSDictionary *)dict
+{
+    NSLog(@"%s\nevent:%@\n anObject:%@\narguments:%@",__func__,event, anObject, dict);
+}
 @end

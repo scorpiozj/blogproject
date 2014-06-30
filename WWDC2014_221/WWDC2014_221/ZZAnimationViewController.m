@@ -7,9 +7,11 @@
 //
 
 #import "ZZAnimationViewController.h"
-
+#import "ZZTestView.h"
 @interface ZZAnimationViewController ()
-
+{
+    ZZTestView *_testView;
+}
 @end
 
 @implementation ZZAnimationViewController
@@ -27,6 +29,14 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    _testView = [[ZZTestView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    _testView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:_testView];
+    [UIView animateWithDuration:2 delay:3 options:0 animations:^{
+        _testView.alpha = .8;
+    } completion:^(BOOL finished) {
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning

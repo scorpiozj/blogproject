@@ -10,6 +10,7 @@
 
 #import "ZZDetailViewController.h"
 #import "ZZSpringViewController.h"
+#import "ZZAnimationViewController.h"
 
 @interface ZZMasterViewController () {
     NSMutableArray *_objects;
@@ -36,7 +37,10 @@
 //    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
 //    self.navigationItem.rightBarButtonItem = addButton;
 //    self.detailViewController = (ZZDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
-    _objects = [NSMutableArray arrayWithObjects:@"Spring", nil];
+    _objects = [NSMutableArray arrayWithObjects:@"Spring",@"Custom Core Animation", nil];
+    
+//    UIVisualEffectView
+//    [self.view drawViewHierarchyInRect:<#(CGRect)#> afterScreenUpdates:<#(BOOL)#>]
 }
 
 - (void)didReceiveMemoryWarning
@@ -119,6 +123,12 @@
         {
             ZZSpringViewController *springVC = [[ZZSpringViewController alloc] initWithNibName:nil bundle:nil];
             [self.navigationController pushViewController:springVC animated:YES];
+            break;
+        }
+        case 1:
+        {
+            ZZAnimationViewController *animationVC = [[ZZAnimationViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:animationVC animated:YES];
             break;
         }
         default:

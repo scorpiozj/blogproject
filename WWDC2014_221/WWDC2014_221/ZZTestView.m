@@ -7,9 +7,12 @@
 //
 
 #import "ZZTestView.h"
-
+#import "ZZTestAction.h"
 @implementation ZZTestView
-
++ (Class)layerClass
+{
+    return [CALayer class];
+}
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -18,7 +21,10 @@
     }
     return self;
 }
-
+- (id<CAAction>)actionForLayer:(CALayer *)layer forKey:(NSString *)event
+{
+    return [[ZZTestAction alloc] init];
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
