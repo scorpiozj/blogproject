@@ -27,6 +27,7 @@
 		40D8BBD9196052D2003B7506 /* ZZTestAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D8BBD8196052D2003B7506 /* ZZTestAction.m */; };
 		40D8BBDC19605389003B7506 /* ZZTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D8BBDB19605389003B7506 /* ZZTestView.m */; };
 		40D8BBDF196053F9003B7506 /* ZZAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D8BBDE196053F9003B7506 /* ZZAnimationViewController.m */; };
+		528AA22B1961587F00CD92EA /* ZZVisualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528AA22A1961587F00CD92EA /* ZZVisualViewController.m */; };
 		52B3464619613F2E00370E66 /* ZZShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B3464519613F2E00370E66 /* ZZShapeViewController.m */; };
 		52B346491961418800370E66 /* ZZShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B346481961418800370E66 /* ZZShapeView.m */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,8 @@
 		40D8BBDB19605389003B7506 /* ZZTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTestView.m; sourceTree = "<group>"; };
 		40D8BBDD196053F9003B7506 /* ZZAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZAnimationViewController.h; sourceTree = "<group>"; };
 		40D8BBDE196053F9003B7506 /* ZZAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZAnimationViewController.m; sourceTree = "<group>"; };
+		528AA2291961587F00CD92EA /* ZZVisualViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZVisualViewController.h; sourceTree = "<group>"; };
+		528AA22A1961587F00CD92EA /* ZZVisualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZVisualViewController.m; sourceTree = "<group>"; };
 		52B3464419613F2E00370E66 /* ZZShapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZShapeViewController.h; sourceTree = "<group>"; };
 		52B3464519613F2E00370E66 /* ZZShapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZShapeViewController.m; sourceTree = "<group>"; };
 		52B346471961418800370E66 /* ZZShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZShapeView.h; sourceTree = "<group>"; };
@@ -194,6 +197,8 @@
 				52B3464519613F2E00370E66 /* ZZShapeViewController.m */,
 				52B346471961418800370E66 /* ZZShapeView.h */,
 				52B346481961418800370E66 /* ZZShapeView.m */,
+				528AA2291961587F00CD92EA /* ZZVisualViewController.h */,
+				528AA22A1961587F00CD92EA /* ZZVisualViewController.m */,
 			);
 			name = viewController;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 				52B346491961418800370E66 /* ZZShapeView.m in Sources */,
 				40635061195FF8A6003FEA09 /* ZZAppDelegate.m in Sources */,
 				40D8BBDC19605389003B7506 /* ZZTestView.m in Sources */,
+				528AA22B1961587F00CD92EA /* ZZVisualViewController.m in Sources */,
 				40D8BBD9196052D2003B7506 /* ZZTestAction.m in Sources */,
 				4063505D195FF8A6003FEA09 /* main.m in Sources */,
 				4063508E195FFC87003FEA09 /* ZZSpringViewController.m in Sources */,
